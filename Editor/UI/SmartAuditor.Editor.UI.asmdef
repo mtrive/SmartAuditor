@@ -1,0 +1,26 @@
+{
+    "name": "SmartAuditor.Editor.UI",
+    "rootNamespace": "",
+    "references": [
+        "SmartAuditor.Editor",
+        "SmartAuditor.Editor.UI.Framework",
+        "SmartAuditor.Editor.Utils"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "com.unity.build-report-inspector",
+            "expression": "",
+            "define": "PACKAGE_BUILD_REPORT_INSPECTOR"
+        }
+    ],
+    "noEngineReferences": false
+}

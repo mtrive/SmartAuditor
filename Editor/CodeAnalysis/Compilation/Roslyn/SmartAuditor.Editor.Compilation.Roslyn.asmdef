@@ -1,0 +1,33 @@
+{
+    "name": "SmartAuditor.Editor.Compilation.Roslyn",
+    "rootNamespace": "",
+    "references": [
+        "SmartAuditor.Editor",
+        "SmartAuditor.Editor.Utils"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "Mono.Cecil.dll",
+        "Microsoft.CodeAnalysis.dll",
+        "Microsoft.CodeAnalysis.CSharp.dll",
+        "System.Collections.Immutable.dll",
+        "System.Reflection.Metadata.dll"
+    ],
+    "autoReferenced": true,
+    "defineConstraints": [
+        "UNITY_6000_0_OR_NEWER"
+    ],
+    "versionDefines": [
+        {
+            "name": "Unity",
+            "expression": "6000.0",
+            "define": "SMARTAUDITOR_ROSLYN_PIPELINE"
+        }
+    ],
+    "noEngineReferences": false
+}

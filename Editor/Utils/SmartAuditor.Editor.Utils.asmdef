@@ -1,0 +1,35 @@
+{
+    "name": "SmartAuditor.Editor.Utils",
+    "references": [
+        "Unity.Addressables"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "Newtonsoft.Json.dll"
+    ],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "Unity",
+            "expression": "2021.2",
+            "define": "SMARTAUDITOR_CAN_USE_COMPUTESHADER_KEYWORDSPACE"
+        },
+        {
+            "name": "Unity",
+            "expression": "2022.2",
+            "define": "SMARTAUDITOR_CAN_USE_COMPUTEMIPCHAINSIZE"
+        },
+        {
+            "name": "com.unity.addressables",
+            "expression": "",
+            "define": "PACKAGE_ADDRESSABLES"
+        }
+    ],
+    "noEngineReferences": false
+}

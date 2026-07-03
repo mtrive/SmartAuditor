@@ -1,0 +1,62 @@
+{
+    "name": "SmartAuditor.Editor.Analyzers",
+    "rootNamespace": "",
+    "references": [
+        "Unity.Addressables",
+        "Unity.Addressables.Editor",
+        "SmartAuditor.Editor",
+        "SmartAuditor.Editor.Utils",
+        "Unity.RenderPipelines.HighDefinition.Runtime",
+        "Unity.RenderPipelines.Universal.Runtime"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "Mono.Cecil.dll",
+        "Newtonsoft.Json.dll"
+    ],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "Unity",
+            "expression": "2021.2",
+            "define": "SMARTAUDITOR_CAN_USE_COMPUTESHADER_KEYWORDSPACE"
+        },
+        {
+            "name": "Unity",
+            "expression": "2022.2",
+            "define": "SMARTAUDITOR_CAN_USE_COMPUTEMIPCHAINSIZE"
+        },
+        {
+            "name": "com.unity.addressables",
+            "expression": "",
+            "define": "PACKAGE_ADDRESSABLES"
+        },
+        {
+            "name": "com.unity.render-pipelines.high-definition",
+            "expression": "",
+            "define": "PACKAGE_HDRP"
+        },
+        {
+            "name": "com.unity.rendering.hybrid",
+            "expression": "",
+            "define": "PACKAGE_HYBRID_RENDERER"
+        },
+        {
+            "name": "com.unity.render-pipelines.universal",
+            "expression": "7.0",
+            "define": "PACKAGE_URP"
+        },
+        {
+            "name": "com.unity.entities.graphics",
+            "expression": "",
+            "define": "PACKAGE_ENTITIES_GRAPHICS"
+        }
+    ],
+    "noEngineReferences": false
+}
