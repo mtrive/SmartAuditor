@@ -2,8 +2,13 @@
     "name": "com.mtrive.smart-auditor",
     "version": "0.1.0",
     "displayName": "Smart Auditor",
+    "author": {
+      "name": "Marco Trivellato",
+      "url": "https://github.com/mtrive"
+    },
     "unity": "6000.0",
     "description": "Smart Auditor is an advanced diagnostics suite for Unity projects. It performs deep static analysis of scripts, assets, and project settings to uncover performance issues, configuration risks, and optimization opportunities. The tool generates actionable reports covering code quality, build insights, asset usage, and project configuration, helping teams identify problems early and make informed decisions to improve performance, maintainability, and build efficiency.",
+    "documentationUrl": "https://github.com/mtrive/SmartAuditor/blob/master/README.md",
     "keywords": [
       "performance",
       "analysis"
